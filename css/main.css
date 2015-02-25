@@ -101,3 +101,11 @@ img {
     text-decoration: none;
     color: #FFFFFF;
 }
+
+/* Page */
+
+#main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 30px;
+}
