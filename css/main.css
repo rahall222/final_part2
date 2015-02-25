@@ -147,39 +147,42 @@ img {
     width: 18%;
 }
 
-.colors li.tint {
-    width: 48%;
-}
-
-.colors .darkred {
+.darkred {
     background-color: #ab2d31;
 }
 
-.colors .red {
+.red {
     background-color: #d4363b;
 }
 
-.colors .darkblue {
+.darkblue {
     background-color: #253948;
 }
 
-.colors .blue {
+.blue {
     background-color: #9dcdf1;
 }
 
-.colors .green {
+.green {
     background-color: #82ac39;
 }
 
-.red.tint {
+.colors .redtint {
     background-color: #ffbdbf;
+    width: 58%;
 }
 
-.green.tint {
+.colors .greentint {
     background-color: #b7d49d;
+    width: 38%;
+
 }
 
 /* Textures */
+
+.textures img {
+    width: 100%;
+}
 
 .textures ul {
     margin: 0;
@@ -191,19 +194,25 @@ img {
     list-style-type: none;
     margin: 1%;
     padding-bottom: 20%;
-    width: 31%;
+    width: 38%;
 }
 
 .textures .redtable {
     background: #ffffff url(../img/tablecloth_red.png) repeat;
-}
-
-.textures .bluetable {
-    background: #ffffff url(../img/tablecloth_blue2.png) repeat;
+    width: 58%;
+    border-top: 10px solid rgba(255, 189, 191, .5);
+    border-bottom: 10px solid rgba(255, 189, 191, .5);
 }
 
 .textures .greentable {
     background: #ffffff url(../img/tablecloth_green.png) repeat;
+    border-top: 10px solid rgba(183, 212, 157, .6);
+    border-bottom: 10px solid rgba(183, 212, 157, .6);
+}
+
+.textures .bluetable {
+    background: #ffffff url(../img/tablecloth_blue2.png) repeat;
+    width: 98%;
 }
 
 /* Buttons */
@@ -249,8 +258,8 @@ img {
 }
 
 #buttons .default a, #buttons .hover a {
-    border-right: 10px solid #ffbdbf;
-    border-left: 10px solid #ab2d31;
+    border-right: 8px solid #ffbdbf;
+    border-left: 8px solid #ab2d31;
 }
 
 #buttons .default a {
@@ -263,7 +272,7 @@ img {
 
 #buttons .hover a:hover {
     background: url(../img/button2.png) center repeat-x;
-    border-left: 10px solid #d4363b;
+    border-left: 8px solid #d4363b;
 }
 
 #buttons .submit a {
