@@ -32,6 +32,11 @@ p, ul, ol {
 
 a {
     color: #82ac39;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 img {
