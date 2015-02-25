@@ -27,6 +27,7 @@ h2 {
 p, ul, ol {
     margin-top: 0;
     line-height: 180%;
+    letter-spacing: .5px;
 }
 
 a {
