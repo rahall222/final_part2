@@ -99,7 +99,7 @@ img {
     text-shadow: -1px 1px 0px rgba(0,0,0,.2);
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #1F1F1F;
+    color: #ffbdbf;
     border: none;
 }
 
@@ -140,13 +140,10 @@ img {
 }
 
 .colors li {
-    background-color: #222;
-    color: transparent;
     float: left;
     list-style-type: none;
     margin: 1%;
     padding-bottom: 5%;
-    text-shadow: none;
     width: 18%;
 }
 
@@ -181,3 +178,31 @@ img {
 .green.tint {
     background-color: #b7d49d;
 }
+
+/* Textures */
+
+.textures ul {
+    margin: 0;
+    padding: 0;
+}
+
+.textures li {
+    float: left;
+    list-style-type: none;
+    margin: 1%;
+    padding-bottom: 20%;
+    width: 31%;
+}
+
+.textures .redtable {
+    background: #ffffff url(../img/tablecloth_red.png) repeat;
+}
+
+.textures .bluetable {
+    background: #ffffff url(../img/tablecloth_blue2.png) repeat;
+}
+
+.textures .greentable {
+    background: #ffffff url(../img/tablecloth_green.png) repeat;
+}
+
