@@ -124,6 +124,64 @@ img {
     padding: 0 5%;
 }
 
+/* Icons */
+
+#typography ul {
+    margin: 0 auto;
+    padding: 10px 0 20px;
+    width: 200px;
+}
+
+#typography li {
+    float: left;
+    list-style-type: none;
+}
+
+.icons a {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    background-image: url(../img/icons.png) ;
+    background-repeat: no-repeat;
+}
+
+.icons a:hover {
+    text-decoration: none;
+}
+
+.breakfast a {
+    background-position: 0px 0px;
+}
+
+.breakfast a:hover {
+    background-position: -100px 0px;
+}
+
+.sandwiches a {
+    background-position: 0px -100px;
+}
+
+.sandwiches a:hover {
+    background-position: -100px -100px;
+}
+
+.hotdogs a {
+    background-position: 0px -200px;
+}
+
+.hotdogs a:hover {
+    background-position: -100px -200px;
+}
+
+.dessert a {
+    background-position: 0px -300px;
+}
+
+.dessert a:hover {
+    background-position: -100px -300px;
+}
+
 /* Swatches */
 
 #swatches {
