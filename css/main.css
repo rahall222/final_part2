@@ -84,7 +84,7 @@ img {
 
 #menu li {
     color: #ffffff;
-    padding: 0 2%;
+    padding: 0 1%;
     margin: 0 1%;
     display: inline-block;
     background-color: #d4363b;
@@ -204,5 +204,72 @@ img {
 
 .textures .greentable {
     background: #ffffff url(../img/tablecloth_green.png) repeat;
+}
+
+/* Buttons */
+
+#buttons {
+    margin: 0 auto;
+    padding: 5%;
+    max-width: 1000px;
+    background: #253948;
+
+}
+
+#buttons ul {
+    margin: 0;
+    padding: 0;
+}
+
+#buttons li {
+    float: left;
+    width: 47%;
+    margin: 3% 1%;
+    list-style-type: none;
+    height: 45px;
+    text-align: center;
+}
+
+#buttons li.hover {
+    margin-left: 3%;
+}
+
+#buttons li.submit {
+    width: 100%;
+}
+
+#buttons a {
+    display: block;
+    color: #ffffff;
+    line-height: 45px;
+}
+
+#buttons a:hover {
+    text-decoration: none;
+}
+
+#buttons .default a, #buttons .hover a {
+    border-right: 10px solid #ffbdbf;
+    border-left: 10px solid #ab2d31;
+}
+
+#buttons .default a {
+    background: url(../img/button1.png) center repeat-x;
+}
+
+#buttons .hover a {
+    background: url(../img/button1.png) center repeat-x;
+}
+
+#buttons .hover a:hover {
+    background: url(../img/button2.png) center repeat-x;
+    border-left: 10px solid #d4363b;
+}
+
+#buttons .submit a {
+    background: url(../img/button3.png) center no-repeat;
+    color: #d4363b;
+    line-height: 58px;
+    width: 100%;
 }
 
