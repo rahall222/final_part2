@@ -319,6 +319,11 @@ img {
     color: #d4363b;
     line-height: 45px;
     height: 45px;
+    -o-transition: .2s;
+    -ms-transition: .2s;
+    -moz-transition: .2s;
+    -webkit-transition: .2s;
+    transition: .2s;
 }
 
 #buttons a:hover {
