@@ -380,3 +380,17 @@ img {
     padding: 2%;
 }
 
+@media (min-width: 500px) {
+    #menu li {
+        margin: 0 2%;
+    }
+
+    #menu a {
+        font-size: 1em;
+    }
+
+    #typography ul {
+        padding: 20px 0 20px;
+        width: 400px;
+    }
+}
