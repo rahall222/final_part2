@@ -277,10 +277,9 @@ img {
     border-bottom: 10px solid rgba(183, 212, 157, .6);
 }
 
-.textures .bluetable {
-    background: #ffffff url(../img/tablecloth_blue2.png) repeat;
+.textures .woodtable {
     width: 98%;
-    padding-bottom: 50%;
+    padding-bottom: 0;
 }
 
 /* Buttons */
@@ -310,7 +309,8 @@ img {
     margin-left: 3%;
 }
 
-#buttons li.submit_red, #buttons li.submit_green {
+#buttons li.submit_red,
+#buttons li.submit_green {
     width: 100%;
 }
 
@@ -334,7 +334,8 @@ img {
     border-style: solid;
 }
 
-#buttons .default_red a, #buttons .hover_red a {
+#buttons .default_red a,
+#buttons .hover_red a {
     border-right-color: #ffbdbf;
     border-left-color: #ab2d31;
     border-top-color: #ffbdbf;
@@ -346,7 +347,8 @@ img {
     border-bottom-color: #d4363b;
 }
 
-#buttons .default_green a, #buttons .hover_green a {
+#buttons .default_green a,
+#buttons .hover_green a {
     color: #82ac39;
     border-right-color: #b7d49d;
     border-left-color: #437530;
