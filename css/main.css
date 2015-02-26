@@ -416,9 +416,15 @@ img {
         clear: both;
     }
 
+    #buttons li {
+        width: 40%;
+        margin: 3% 5%;
+    }
+
     #buttons li.submit_red,
     #buttons li.submit_green {
         width: 46%;
+        margin: 5% 2%;
     }
 }
 
