@@ -289,7 +289,6 @@ img {
     padding: 5%;
     max-width: 1000px;
     background: #253948;
-
 }
 
 #buttons ul {
@@ -392,5 +391,33 @@ img {
     #typography ul {
         padding: 20px 0 20px;
         width: 400px;
+    }
+}
+
+@media (min-width: 700px) {
+    #typography {
+        width: 300px;
+        position: absolute;
+        top: 36%;
+        padding-left: 35px;
+    }
+
+    #typography ul {
+        padding: 20px 0 10px;
+        width: 200px;
+    }
+
+    #swatches {
+        float: left;
+        padding: 0 5% 5% 370px;
+    }
+
+    #buttons {
+        clear: both;
+    }
+
+    #buttons li.submit_red,
+    #buttons li.submit_green {
+        width: 46%;
     }
 }
