@@ -236,13 +236,13 @@ img {
 .colors .redtint {
     background-color: #ffbdbf;
     width: 58%;
-    padding-bottom: 30%;
+    padding-bottom: 8%;
 }
 
 .colors .greentint {
     background-color: #b7d49d;
     width: 38%;
-    padding-bottom: 30%;
+    padding-bottom: 8%;
 }
 
 /* Textures */
@@ -394,11 +394,11 @@ img {
     }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 750px) {
     #typography {
         width: 300px;
         position: absolute;
-        top: 36%;
+        top: 261px;
         padding-left: 35px;
     }
 
@@ -419,5 +419,31 @@ img {
     #buttons li.submit_red,
     #buttons li.submit_green {
         width: 46%;
+    }
+}
+
+@media (min-width: 940px) {
+    .colors {
+        float: left;
+        width: 20%;
+    }
+
+    .textures {
+        float: left;
+        width: 80%;
+    }
+
+    .colors li,
+    .colors .redtint,
+    .colors .greentint {
+        clear: both;
+        margin: 3.1%;
+        width: 93.8%;
+        padding-bottom: 40%;
+    }
+
+    #buttons li {
+        width: 21%;
+        margin: 2% 2%;
     }
 }
