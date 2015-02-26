@@ -18,12 +18,12 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 2.3em;
+    font-size: 3em;
     font-weight: 900;
 }
 
 h2 {
-    font-size: 1.7em;
+    font-size: 2em;
     font-weight: 700;
 }
 
@@ -104,6 +104,11 @@ img {
     letter-spacing: 1px;
     color: #ffbdbf;
     border: none;
+    -o-transition: .2s;
+    -ms-transition: .2s;
+    -moz-transition: .2s;
+    -webkit-transition: .2s;
+    transition: .2s;
 }
 
 #menu a:hover, #menu .current_page_item a {
@@ -188,7 +193,7 @@ img {
 /* Swatches */
 
 #swatches {
-    margin: 0 auto;
+    margin: 0 auto 20px;
     padding: 5%;
     max-width: 1000px;
 }
@@ -204,7 +209,7 @@ img {
     float: left;
     list-style-type: none;
     margin: 1%;
-    padding-bottom: 5%;
+    padding-bottom: 15%;
     width: 18%;
 }
 
@@ -231,12 +236,13 @@ img {
 .colors .redtint {
     background-color: #ffbdbf;
     width: 58%;
+    padding-bottom: 30%;
 }
 
 .colors .greentint {
     background-color: #b7d49d;
     width: 38%;
-
+    padding-bottom: 30%;
 }
 
 /* Textures */
@@ -254,7 +260,7 @@ img {
     float: left;
     list-style-type: none;
     margin: 1%;
-    padding-bottom: 20%;
+    padding-bottom: 40%;
     width: 38%;
 }
 
@@ -274,6 +280,7 @@ img {
 .textures .bluetable {
     background: #ffffff url(../img/tablecloth_blue2.png) repeat;
     width: 98%;
+    padding-bottom: 50%;
 }
 
 /* Buttons */
@@ -293,10 +300,9 @@ img {
 
 #buttons li {
     float: left;
-    width: 47%;
-    margin: 3% 1%;
+    width: 46%;
+    margin: 5% 2%;
     list-style-type: none;
-    height: 45px;
     text-align: center;
 }
 
@@ -304,42 +310,61 @@ img {
     margin-left: 3%;
 }
 
-#buttons li.submit {
+#buttons li.submit_red, #buttons li.submit_green {
     width: 100%;
 }
 
 #buttons a {
     display: block;
-    color: #ffffff;
+    color: #d4363b;
     line-height: 45px;
+    height: 45px;
 }
 
 #buttons a:hover {
     text-decoration: none;
 }
 
-#buttons .default a, #buttons .hover a {
-    border-right: 8px solid #ffbdbf;
-    border-left: 8px solid #ab2d31;
+#buttons .default_red a,
+#buttons .hover_red a ,
+#buttons .default_green a ,
+#buttons .hover_green a {
+    background: #ffffff;
+    border-width: 8px;
+    border-style: solid;
 }
 
-#buttons .default a {
-    background: url(../img/button1.png) center repeat-x;
+#buttons .default_red a, #buttons .hover_red a {
+    border-right-color: #ffbdbf;
+    border-left-color: #ab2d31;
+    border-top-color: #ffbdbf;
+    border-bottom-color: #ab2d31;
 }
 
-#buttons .hover a {
-    background: url(../img/button1.png) center repeat-x;
+#buttons .hover_red a:hover {
+    border-left-color: #d4363b;
+    border-bottom-color: #d4363b;
 }
 
-#buttons .hover a:hover {
-    background: url(../img/button2.png) center repeat-x;
-    border-left: 8px solid #d4363b;
+#buttons .default_green a, #buttons .hover_green a {
+    color: #82ac39;
+    border-right-color: #b7d49d;
+    border-left-color: #437530;
+    border-top-color: #b7d49d;
+    border-bottom-color: #437530;
 }
 
-#buttons .submit a {
-    background: url(../img/button3.png) center no-repeat;
-    color: #d4363b;
-    line-height: 58px;
-    width: 100%;
+#buttons .hover_green a:hover {
+    border-left-color: #82ac39;
+    border-bottom-color: #82ac39;
+}
+
+#buttons .submit_red a {
+    background: url(../img/btn_red.png) center no-repeat;
+}
+
+#buttons .submit_green a {
+    background: url(../img/btn_green.png) center no-repeat;
+    color: #82ac39;
 }
 
