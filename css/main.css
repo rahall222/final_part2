@@ -278,6 +278,7 @@ img {
 }
 
 .textures .woodtable {
+    background: #ffffff url(../img/tablecloth_green.png) repeat;
     width: 98%;
     padding-bottom: 0;
 }
