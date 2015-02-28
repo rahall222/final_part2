@@ -42,6 +42,14 @@ a:hover {
     text-decoration: underline;
 }
 
+a:active {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #82ac39;
+}
+
 img {
     border: 0 none;
     vertical-align: middle;
@@ -114,6 +122,10 @@ img {
 #menu a:hover, #menu .current_page_item a {
     text-decoration: none;
     color: #FFFFFF;
+}
+
+#menu a:active {
+    color: #ffbdbf;
 }
 
 /* Page */
