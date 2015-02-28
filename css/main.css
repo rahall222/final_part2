@@ -353,29 +353,39 @@ img {
 
 #buttons .default_red a,
 #buttons .hover_red a {
-    border-right-color: #ffbdbf;
-    border-left-color: #ab2d31;
     border-top-color: #ffbdbf;
+    border-right-color: #ffbdbf;
     border-bottom-color: #ab2d31;
+    border-left-color: #ab2d31;
 }
 
 #buttons .hover_red a:hover {
-    border-left-color: #d4363b;
     border-bottom-color: #d4363b;
+    border-left-color: #d4363b;
+}
+
+#buttons .hover_red a:active {
+    border-bottom-color: #ab2d31;
+    border-left-color: #ab2d31;
 }
 
 #buttons .default_green a,
 #buttons .hover_green a {
     color: #82ac39;
-    border-right-color: #b7d49d;
-    border-left-color: #437530;
     border-top-color: #b7d49d;
+    border-right-color: #b7d49d;
     border-bottom-color: #437530;
+    border-left-color: #437530;
 }
 
 #buttons .hover_green a:hover {
-    border-left-color: #82ac39;
     border-bottom-color: #82ac39;
+    border-left-color: #82ac39;
+}
+
+#buttons .hover_green a:active {
+    border-bottom-color: #437530;
+    border-left-color: #437530;
 }
 
 #buttons .submit_red a {
