@@ -55,7 +55,9 @@ img {
     vertical-align: middle;
 }
 
-.clear { clear: both; }
+.clear { 
+    clear: both; 
+}
 
 /* Header */
 
