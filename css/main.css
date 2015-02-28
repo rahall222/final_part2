@@ -139,7 +139,6 @@ img {
 /* Typography */
 
 #typography {
-    max-width: 1000px;
     margin: 0 auto;
     padding: 0 5%;
 }
@@ -207,7 +206,6 @@ img {
 #swatches {
     margin: 0 auto 20px;
     padding: 5%;
-    max-width: 1000px;
 }
 
 /* Colors */
@@ -277,20 +275,20 @@ img {
 }
 
 .textures .redtable {
-    background: #ffffff url(../img/tablecloth_red.png) repeat;
+    background: url(../img/tablecloth_red.png) repeat;
     width: 58%;
     border-top: 10px solid rgba(255, 189, 191, .5);
     border-bottom: 10px solid rgba(255, 189, 191, .5);
 }
 
 .textures .greentable {
-    background: #ffffff url(../img/tablecloth_green.png) repeat;
+    background: url(../img/tablecloth_green.png) repeat;
     border-top: 10px solid rgba(183, 212, 157, .6);
     border-bottom: 10px solid rgba(183, 212, 157, .6);
 }
 
 .textures .woodtable {
-    background: #ffffff url(../img/tablecloth_green.png) repeat;
+    background: url(../img/tablecloth_green.png) repeat;
     width: 98%;
     padding-bottom: 0;
 }
@@ -300,7 +298,6 @@ img {
 #buttons {
     margin: 0 auto;
     padding: 5%;
-    max-width: 1000px;
     background: #253948;
 }
 
@@ -315,10 +312,6 @@ img {
     margin: 5% 2%;
     list-style-type: none;
     text-align: center;
-}
-
-#buttons li.hover {
-    margin-left: 3%;
 }
 
 #buttons li.submit_red,
